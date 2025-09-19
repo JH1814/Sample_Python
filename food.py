@@ -9,4 +9,5 @@ class Food:
     carbs: float
     fat: float
     sugar: float
-
+    meal_type: str = "Breakfast", "Lunch", "Dinner", "Snack"  # Default meal type
+    date: str = "YYYY-MM-DD"   # Default date format
